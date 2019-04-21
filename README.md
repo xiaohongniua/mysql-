@@ -42,7 +42,9 @@ drop user 用户名@ localhost;
 update mysql.user set authentication_string=password('password') where user='name'and Host = 'localhost';
 flush privileges;
 暂时还不会修改root的密码
+
 sudo mysql -u root -p mysql，用空密码进入mysql管理命令行
+
 
 ## PS2：重启/打开/关闭MySQL的方法是：sudo service mysql restart/start/stop
 
